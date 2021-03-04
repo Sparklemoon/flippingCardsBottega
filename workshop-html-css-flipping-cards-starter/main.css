@@ -1,0 +1,55 @@
+:root {
+  --sansSerif: "Noto Sans JP", sans-serif;
+  --primary: #129fc0;
+  --highlight: #141926;
+  --offWhite: #f6f6f6;
+}
+
+body {
+  font-family: var(--sansSerif);
+  margin: 0px;
+  background-color: var(--offWhite);
+}
+
+.nav {
+  width: 100vw;
+  height: 150px;
+  background-color: var(--highlight);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav > .logo {
+  width: 300px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 42px;
+}
+
+.content {
+}
+
+.card-container {
+}
+
+.card-container-content {
+  /* https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/#relative */
+  width: 300px;
+}
+
+.card-container-content > .card-front > img {
+}
+
+.card-container:hover .card-container-content {
+}
+
+.card-front,
+.card-back {
+}
+
+.card-back {
+}
